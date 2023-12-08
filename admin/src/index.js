@@ -53,6 +53,16 @@ export default {
             name: 'options.preset',
             type: 'select',
             options: [
+              { 
+                key: 'going-main',
+                value: 'going-main',
+                metadatas: {
+                  intlLabel: {
+                    id: 'ckeditor.preset.going-main.label',
+                    defaultMessage: 'Going - Main version'
+                  }
+                }
+              },
               {
                 key: 'light',
                 value: 'light',
