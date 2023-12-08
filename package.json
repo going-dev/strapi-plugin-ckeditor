@@ -59,6 +59,9 @@
     "@reinmar/ckeditor5-maximum-length": "^0.0.1",
     "ckeditor5": "^40.0.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/going-dev"
+  },
   "peerDependencies": {
     "@strapi/strapi": "^4.4.0"
   },
