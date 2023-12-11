@@ -630,7 +630,6 @@ const GOING_PRESETS = {
         "code",
         "superscript",
         "subscript",
-        "-",
         "link",
       ],
       shouldNotGroupWhenFull: true,
