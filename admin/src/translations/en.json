@@ -6,6 +6,7 @@
   "ckeditor.preset.light.label": "Light version",
   "ckeditor.preset.standard.label": "Standard version",
   "ckeditor.preset.going-main.label": "Going - Main version",
+  "ckeditor.preset.going-inline.label": "Going - Inline text version",
   "ckeditor.settings": "Settings",
   "ckeditor.required.label": "Required field",
   "ckeditor.required.description": "You won't be able to create an entry if this field is empty",

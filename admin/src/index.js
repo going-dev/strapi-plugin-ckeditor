@@ -63,6 +63,16 @@ export default {
                   }
                 }
               },
+              { 
+                key: 'going-inline',
+                value: 'going-inline',
+                metadatas: {
+                  intlLabel: {
+                    id: 'ckeditor.preset.going-inline.label',
+                    defaultMessage: 'Going - Inline text version'
+                  }
+                }
+              },
               {
                 key: 'light',
                 value: 'light',

@@ -606,6 +606,49 @@ const GOING_PRESETS = {
       ],
     },
   },
+  main: {
+    plugins: [
+      window.CKEditor5.autoformat.Autoformat,
+      window.CKEditor5.basicStyles.Bold,
+      window.CKEditor5.basicStyles.Italic,
+      window.CKEditor5.basicStyles.Underline,
+      window.CKEditor5.basicStyles.Strikethrough,
+      window.CKEditor5.basicStyles.Code,
+      window.CKEditor5.basicStyles.Subscript,
+      window.CKEditor5.basicStyles.Superscript,
+      window.CKEditor5.essentials.Essentials,
+      window.CKEditor5.link.Link,
+      window.CKEditor5.paragraph.Paragraph,
+      window.CKEditor5.wordCount.WordCount,
+    ],
+    toolbar: {
+      items: [
+        "bold",
+        "italic",
+        "underline",
+        "strikethrough",
+        "code",
+        "superscript",
+        "subscript",
+        "-",
+        "link",
+      ],
+      shouldNotGroupWhenFull: true,
+    },
+    link: {
+      defaultProtocol: "https://",
+      decorators: [
+        {
+          mode: "manual",
+          label: "Open in a new tab",
+          attributes: {
+            target: "_blank",
+            rel: "noopener noreferrer",
+          },
+        },
+      ],
+    },
+  },
 };
 
 export default class Configurator {
@@ -646,6 +689,8 @@ export default class Configurator {
         return CKEDITOR_BASE_CONFIG_FOR_PRESETS.rich;
       case "going-main":
         return GOING_PRESETS.main;
+      case "going-inline":
+        return GOING_PRESETS.inline;
       default:
         throw new Error("Invalid preset name " + presetName);
     }
