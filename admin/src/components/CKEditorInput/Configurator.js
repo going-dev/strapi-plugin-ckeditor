@@ -606,7 +606,7 @@ const GOING_PRESETS = {
       ],
     },
   },
-  main: {
+  inline: {
     plugins: [
       window.CKEditor5.autoformat.Autoformat,
       window.CKEditor5.basicStyles.Bold,
