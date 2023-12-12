@@ -620,6 +620,7 @@ const GOING_PRESETS = {
       window.CKEditor5.link.Link,
       window.CKEditor5.paragraph.Paragraph,
       window.CKEditor5.wordCount.WordCount,
+      StrapiMediaLib,
     ],
     toolbar: {
       items: [
