@@ -605,6 +605,14 @@ const GOING_PRESETS = {
         "toggleTableCaption",
       ],
     },
+    mediaEmbed: {
+      extraProviders: [
+        {
+          name: "allow-all",
+          url: /^.+/,
+        },
+      ],
+    },
   },
   inline: {
     plugins: [
