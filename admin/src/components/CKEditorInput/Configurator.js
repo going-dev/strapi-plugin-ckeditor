@@ -570,6 +570,7 @@ const GOING_PRESETS = {
         {
           mode: "manual",
           label: "Open in a new tab",
+          defaultValue: true,
           attributes: {
             target: "_blank",
             rel: "noopener noreferrer",
@@ -649,6 +650,7 @@ const GOING_PRESETS = {
         {
           mode: "manual",
           label: "Open in a new tab",
+          defaultValue: true,
           attributes: {
             target: "_blank",
             rel: "noopener noreferrer",
